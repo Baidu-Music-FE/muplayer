@@ -1,4 +1,4 @@
-do (root = this, factory = (cfg, utils, Timer, EngineCore) ->
+do (root = this, factory = (cfg, utils, Timer, EngineCore, swfobject) ->
     {EVENTS, STATES, ERRCODE} = cfg.engine
     timerResolution = cfg.timerResolution
 
