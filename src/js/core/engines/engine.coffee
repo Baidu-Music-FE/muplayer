@@ -99,7 +99,7 @@ do (root = @, factory = (
                     .setMute(oldEngine.getMute())
 
         canPlayType: (type) ->
-            type = 'm4a' if type is 'mp4a'
+            type = 'm4a' if type is 'mp4a' or type is 'aac'
             $.inArray(type, @getSupportedTypes()) isnt -1
 
         getSupportedTypes: ->
