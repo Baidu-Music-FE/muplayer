@@ -2,7 +2,7 @@
 <%
 dim fld,uid,upassword,connectionstring
 myjd=request("buttonva")
-
+'保利300多美女
 'Response.Write myjd
 'Response.ContentType = "application/vnd.ms-excel"
 exec="select * from `" & myjd & "`"
